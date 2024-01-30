@@ -1,0 +1,172 @@
+:: StoryTitle
+Twine Game 1
+
+
+:: StoryData
+{
+  "ifid": "A221E342-920E-49B1-830E-68D76086A8C9",
+  "format": "Harlowe",
+  "format-version": "3.3.8",
+  "start": "Screen 1",
+  "zoom": 1
+}
+
+
+:: A. Choose to walk. {"position":"1100,600","size":"100,100"}
+You sae two ways
+[[Walkway]]
+[[Pathway]]
+
+
+:: A. Teddy bear {"position":"1700,400","size":"100,100"}
+You picked up the bear, and walked out. But when you looked back, there were nothing  the shop was gone. And then you hear you wife calling you, you look back again and you see your house.
+You go in and give the bear to your wife.
+She loves it
+(text-colour:cyan)[GOOD END]
+
+
+:: B. Perfume {"position":"1700,600","size":"100,100"}
+You picked up the Perfume, and walked out. But when you looked back, there were nothing  the shop was gone. And then you hear you wife calling you, you look back again and you see your house.
+You walked in and hand the perfume to her.
+She love that Perfume
+(text-colour:cyan)[GOOD END]
+
+
+:: B. Wait for 10 minute. {"position":"900,500","size":"100,100"}
+You saw one of you colleague's car stops in front of you.
+Then he roll down his car window.
+Colleague: Hey, you wanna go to the bar?
+You:[[Sure]]
+	[[Nah]], I need to be go back, my wife is waiting for me.
+
+
+:: C. Wait for 30 minuter. {"position":"850,900","size":"100,100"}
+All of a sudden you saw your wife in her car, shes here to pick you home.
+She open the door and you went int the car.
+What will you do?
+[[Hug her.]]
+[[Kiss her.]]
+
+
+
+:: D. Wait for a hour. {"position":"1050,800","size":"100,100"}
+Hey! Look a bus have finally arrived, maybe this is the bus you were waiting for!!!
+[[Look toward the buss.]]
+
+
+:: Hug her. {"position":"750,1100","size":"100,100"}
+She hugs you back and you two go home.
+(text-colour:cyan)[GOOD END]
+
+
+:: Keep walking {"position":"1500,650","size":"100,100"}
+You keep walking and walking and eventually back home. But you were very tired for the birthday.
+(text-colour:blue)[END]
+
+
+:: Kiss her. {"position":"950,1100","size":"100,100"}
+She squish you cheek and tell you to gargle before doing that.
+You two then went home.
+(text-colour:cyan)[END]
+
+
+:: Look Outside {"position":"1250,1250","size":"100,100"}
+You saw a plain full with trashs.
+Then you feel a hand is grabbing you.
+[[Next]]
+
+
+:: Look toward the buss. {"position":"1250,800","size":"100,100"}
+Strange.....You could not figure out which bus it is. 
+		The Bus stops in front of you		
+        The door opens and you saw the driver.
+        The driver looks at you silently
+        His face is pail and gaunt
+        His eyes stares at you.
+      You looks at the driver and [[ask]]
+      You silently go in and [[sits down]]
+       
+
+
+:: Nah {"position":"1150,300","size":"100,100"}
+Yuu tell here you colleague that its your wifes birthday.
+Colleague: I see, let go man, I will ride you home.
+You: Thanks
+[[_____]]
+
+
+:: Next {"position":"1250,1375","size":"100,100"}
+The guard thought you were a homless person and kicked you out.
+Not only did you not go home, you also smells very bad.
+(text-colour:lime)[END]
+
+
+:: Pathway {"position":"1275,650","size":"100,100"}
+As you walk, the path get darker, but all of a sudden you saw a glimmer of light, and you see a shop.
+[[Walk toward it]]
+[[Keep walking]]
+
+
+:: Screen 1 {"position":"650,700","size":"100,100"}
+The bus hasn't come yet, and it had been ages.
+[[What will you do?]]
+
+
+
+
+:: Sure {"position":"900,300","size":"100,100"}
+You totally forgot about you wife, and decided to go get a drink.
+You went home while getting drunk, you wife not speak to you for a week.
+(text-colour:orange)[THE END]
+
+
+:: Walk toward it {"position":"1500,500","size":"100,100"}
+You see it is a gift shop and the owner dress up like the Santa Claus, "Santa" was about the close the shop, but he saw you coming it.
+So he decided to give you a gift for free.
+You choose:
+					[[A. Teddy bear]]
+                    [[B. Perfume]]
+                    
+
+
+:: Walkway {"position":"1275,475","size":"100,100"}
+After 10 minute of walking, you hear a bus is coming from behind, and you saw a bus stop in front of you. You walk toward the stop and get on the bus and go home.
+(text-colour:lime)[END]
+
+
+:: What will you do? {"position":"850,700","size":"100,100"}
+It is nearly 7:30 pm, and you are in a hurry to go home becuase it is your wife's birthday. What should you do.
+[[A. Choose to walk.]]
+[[B. Wait for 10 minute.]]
+[[C. Wait for 30 minuter.]]
+[[D. Wait for a hour.]]
+
+
+:: _____ {"position":"1350,300","size":"100,100"}
+You got home.
+You and your wife celebrated her birthday.
+(text-colour:blue)[THE END]
+
+
+:: ask {"position":"1450,800","size":"100,100"}
+You: Hey....
+The driver suddenly open his mouth and you can see unlimited bugs coming out of his mouth.
+Then you feel your eyes, noise mouth and ears began to bleed.
+And you blacked out.
+(text-colour:red)[YOU DIE]
+(text-colour:red)[BAD END]
+
+
+:: open your eyes {"position":"1250,1125","size":"100,100"}
+It is the security guards.
+Guard: Sir, you are not suppose to be hear.
+You: Sorry, I must of slept over on the bus.
+Guard: Bus? THIS BUS? Are you joking? You're in a wasteyard!!!
+You What?!?!
+[[Look Outside]]
+
+
+:: sits down {"position":"1250,1000","size":"100,100"}
+The bus closes the door and began to move silently as well.
+Suddenly you feel very sleepy and soon fall to sleep.
+After a while, you feel someone is shaking your body, you [[open your eyes]].
